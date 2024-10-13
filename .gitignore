@@ -1,0 +1,33 @@
+# Исключаем скомпилированные файлы
+bin/
+obj/
+
+# Исключаем файлы, создаваемые IDE
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Исключаем пакеты NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Исключаем файлы зависимости
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Исключаем кэш и временные файлы
+*.cache
+*.temp
+
+# Исключаем конфиденциальные данные
+appsettings.Development.json
+appsettings.json
+secrets.json
+
+# Исключаем временные файлы системы
+Thumbs.db
+.DS_Store
